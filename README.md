@@ -10,12 +10,12 @@ This project is a mock portfolio page that will hold links and descriptions to m
 ## _Installation_
 
 ### To Display Locally
-* _`git clone https://github.com/CodingTea17/portfolio.git` into your desired directory.
-* _`cd portfolio`
-* _Open the index.html in a web browser.
+* `git clone https://github.com/CodingTea17/portfolio.git` into your desired directory.
+* `cd portfolio`
+* Open the index.html in a web browser.
 
 ### For a Live Version of The Site
-* _[Click Here](https://codingtea17.github.io/portfolio)
+* [Click Here](https://codingtea17.github.io/portfolio)
 
 
 ## Technologies Used
