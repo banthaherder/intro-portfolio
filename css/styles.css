@@ -1,38 +1,62 @@
-/*font-family: 'Open Sans', sans-serif;
+/****************************************
+Fonts
+=========================================
+font-family: 'Open Sans', sans-serif;
 font-family: 'Roboto', sans-serif;
-font-family: 'Raleway', sans-serif;*/
+font-family: 'Raleway', sans-serif;
+*****************************************/
 
-html, body{
+/*** HTML ELEMENTS ***/
+html, body {
   height: 100%;
 }
-
 body {
   background: url(../images/portland.jpg) no-repeat center center fixed;
 	background-size:  cover;
   height: 100%;
   overflow: hidden;
 }
-
 h1 {
   font-family: 'Roboto', sans-serif;
   font-weight: 900;
 }
-
 p {
   font-family: 'Raleway', sans-serif;
 }
-.navbar {
-  background: none;
-}
 
+/*** CLASSES ***/
+/*.navbar {
+  background: rgba(132,132,132, 0.65);
+}*/
+.navbar-default {
+  background:transparent;
+  background-image:none;
+  border-color:transparent;
+  margin-bottom: 0px;
+}
 .well {
-  background: rgba(0, 98, 139, 0.8);
+  background: rgba(117,168,189,.65);
+  color: #efefef;
+}
+.panel-default {
+  background: rgba(117,168,189,.01);
   color: #efefef;
 }
 
+/*** IDS ***/
 #page {
   background: rgba(39,62,84,0.6);
   overflow: hidden;
   height: 100%;
   padding-top: 20px;
+}
+#aboutdawson {
+  background: rgba(117,168,189,.65);
+}
+#abouttitle {
+  color: #efefef;
+  font-family: 'Roboto', sans-serif;
+  font-weight: 900;
+  font-size: 30px;
+  text-align: center;
 }
