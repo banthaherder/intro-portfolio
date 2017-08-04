@@ -7,13 +7,9 @@ font-family: 'Raleway', sans-serif;
 *****************************************/
 
 /*** HTML ELEMENTS ***/
-html, body {
-  height: 100%;
-}
 body {
   background: url(../images/portland.jpg) no-repeat center center fixed;
-	background-size:  cover;
-  height: 100%;
+	background-size: cover;
   overflow: hidden;
 }
 h1 {
@@ -30,6 +26,13 @@ p {
 }
 a {
   color: inherit;
+  padding: 10px;
+}
+a:hover {
+  border: 2px solid #345c9b;
+  text-decoration: none;
+  color: inherit;
+  padding: 10px;
 }
 img {
   width: 90%;
@@ -37,8 +40,9 @@ img {
   max-width: 300px;
   display: block;
   margin: 0 auto;
-  border: 2px solid rgb(117,168,189);
+  border: 2px solid;
 }
+
 /*li{
   margin-bottom: 10px;
 }*/
@@ -49,12 +53,9 @@ img {
 .col-lg-9 {
   margin-top: 50px;
 }
-/*.navbar-default {
-  background:transparent;
-  background-image:none;
-  border-color:transparent;
-  margin-bottom: 0px;
-}*/
+.well ul li {
+  margin-top: 15px;
+}
 .well {
   background: rgba(117,168,189,.65);
   color: #efefef;
@@ -64,7 +65,7 @@ img {
   overflow-y: auto;
 }
 .panel-default {
-  background: rgba(117,168,189,.01);
+  background: rgba(117,168,189,.65);
   color: #efefef;
 }
 .panel-body {
@@ -79,11 +80,11 @@ img {
 #page {
   background: rgba(39,62,84,0.6);
   overflow-y: auto;
-  height: 100%;
+  height: 100vh;
   padding-top: 20px;
 }
 #aboutdawson {
-  background: rgba(117,168,189,.65);
+  background: rgba(102, 150, 170,.9);
 }
 #abouttitle {
   color: #efefef;
@@ -93,13 +94,22 @@ img {
   text-align: center;
 }
 #codingtea {
+  clear: both;
   text-align: center;
   margin: 10px 10px;
 }
 #background-info {
   max-height: 300px;
   overflow-y: auto;
-  padding-right: 10px;
+  padding-right: 7px;
   font-size: 18px;
-  font-family: 'Raleway', sans-serif;
+}
+#content-row {
+  min-height:100vh;
+}
+#github-text {
+  float: left;
+}
+#github-link {
+  float: right;
 }
