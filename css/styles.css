@@ -1,0 +1,38 @@
+/*font-family: 'Open Sans', sans-serif;
+font-family: 'Roboto', sans-serif;
+font-family: 'Raleway', sans-serif;*/
+
+html, body{
+  height: 100%;
+}
+
+body {
+  background: url(../images/portland.jpg) no-repeat center center fixed;
+	background-size:  cover;
+  height: 100%;
+  overflow: hidden;
+}
+
+h1 {
+  font-family: 'Roboto', sans-serif;
+  font-weight: 900;
+}
+
+p {
+  font-family: 'Raleway', sans-serif;
+}
+.navbar {
+  background: none;
+}
+
+.well {
+  background: rgba(0, 98, 139, 0.8);
+  color: #efefef;
+}
+
+#page {
+  background: rgba(39,62,84,0.6);
+  overflow: hidden;
+  height: 100%;
+  padding-top: 20px;
+}
