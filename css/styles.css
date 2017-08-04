@@ -21,6 +21,9 @@ h1 {
   font-weight: 900;
   text-align: center;
 }
+h2 {
+  font-family: 'Roboto', sans-serif;
+}
 p {
   font-family: 'Raleway', sans-serif;
   font-size: 16px;
@@ -36,9 +39,9 @@ img {
   margin: 0 auto;
   border: 2px solid rgb(117,168,189);
 }
-li{
+/*li{
   margin-bottom: 10px;
-}
+}*/
 /*** CLASSES ***/
 .col-lg-3 {
   margin-top: 50px;
@@ -63,6 +66,10 @@ li{
 .panel-default {
   background: rgba(117,168,189,.01);
   color: #efefef;
+}
+.panel-body {
+  font-size: 18px;
+  font-family: 'Raleway', sans-serif;
 }
 .description {
   font-weight: bold;
@@ -93,4 +100,6 @@ li{
   max-height: 300px;
   overflow-y: auto;
   padding-right: 10px;
+  font-size: 18px;
+  font-family: 'Raleway', sans-serif;
 }
